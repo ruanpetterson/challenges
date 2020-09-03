@@ -12,4 +12,4 @@ class Solution:
         result = int(self.reverseString(str(abs(x))))
         if result > 2147483647:
             return 0
-        return result if x > 0 else (result * (-1))
+        return result if x > 0 else -result
